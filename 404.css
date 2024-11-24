@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'gosha-sans', sans-serif;
-    src: url(/assets/fonts/gosha-sans/PPGoshaSans-Regular.otf);
+    font-family: "gosha-sans";
+    src: url(assets/fonts/gosha-sans/PPGoshaSans-Regular.otf) format('opentype');
     font-weight: 400;
 }
 
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'gosha-sans';
+    font-family: "gosha-sans";
     background-color: black;
 }
 
@@ -20,13 +20,13 @@ body {
 
 .h1 {
     font-size: 56px;
-    font-family: 'gosha-sans';
+    font-family: "gosha-sans";
     font-weight: 700;
     color: white;
 }
 
 .h2 {
     font-size: 24px;
-    font-family: 'gosha-sans';
+    font-family: "gosha-sans";
     color: rgb(199, 199, 199);
 }

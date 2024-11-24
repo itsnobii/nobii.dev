@@ -1,6 +1,6 @@
     @font-face {
-      font-family: 'gosha-sans', sans-serif;
-      src: url(/assets/fonts/gosha-sans/PPGoshaSans-Regular.otf);
+      font-family: "gosha-sans";
+      src: url(assets/fonts/gosha-sans/PPGoshaSans-Regular.otf) format('opentype');
       font-weight: 400;
     }
     
@@ -11,7 +11,7 @@
     min-height: 100vh;
     overflow: hidden;
     font-size: 96px;
-    font-family: 'gosha-sans';
+    font-family: "gosha-sans";
     font-weight: 700;
     background-color: rgb(3, 3, 3);
     color: white;
