@@ -1,0 +1,53 @@
+body {
+    background: #030303;
+    color: #fff;
+    font-family: "gosha-sans", "VT323", monospace;
+    margin: 0;
+    min-height: 100vh;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 2rem;
+}
+.title {
+    font-size: 3rem;
+    font-family: "VT323", monospace;
+    margin-bottom: 0.5rem;
+}
+.desc {
+    font-size: 1.5rem;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.example {
+    background: #181818;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    font-family: "VT323", monospace;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #00ff99;
+}
+.note {
+    color: #aaa;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.copy-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    color: #00ff99;
+    transition: color 0.2s;
+    vertical-align: middle;
+    padding: 0;
+}
+.copy-btn:hover {
+    color: #fff;
+}
